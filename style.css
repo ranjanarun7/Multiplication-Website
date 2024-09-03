@@ -1,0 +1,52 @@
+body{
+  background-color: #212121;
+  background: url("https://media.istockphoto.com/id/898683510/photo/dirty-grunge-chalkboard-full-of-mathematical-problems-and-formula.jpg?s=1024x1024&w=is&k=20&c=oAtwrYHTxqdlF5jqtSko9dQE9BnmRqjY79TDLK9cdq8=");
+  height: 100vh;
+  width: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 370px;
+  margin-top: 150px;
+  border-radius: 5px;
+  color: #212121;
+  height: 250px;
+  width: 410px;
+}
+.score{
+  display: block;
+  margin-left: 290px;
+  margin-top: 0px;
+  color: green;
+}
+.input{
+  display: block;
+  width:350px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  border: solid 4px green;
+  color: green;
+}
+.input::placeholder{
+  color: lightgrey;
+  font-family: cursive;
+}
+.btn{
+  width: 350px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: green;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+  filter: brightness(0.9);
+}
